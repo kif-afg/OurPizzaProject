@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="ImplentationPizzaProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ImplentationPizzaProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Opacity="0.8">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/pizza-pepperoni-w857h456.jpg"/>
+    </Page.Background>
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="48,44,0,0" TextWrapping="Wrap" Text="Create Pizza" VerticalAlignment="Top" Height="92" Width="522" FontSize="48" FontFamily="Bauhaus 93" RequestedTheme="Dark" SelectionChanged="textBlock_SelectionChanged"/>
+
+    </Grid>
+</Page>
